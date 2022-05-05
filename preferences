@@ -7,12 +7,7 @@
 </head>
 <body>
 
-<p>Exploring</p>
-<button>Preferences</button>
-<button>Describe Scene</button>
-<button>Find Object</button>
-<button>Help</button>
+<button>Back</button>
 
-<a href="/preferences.html">Contact</a>
 </body>
 </html>
