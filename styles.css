@@ -6,5 +6,26 @@
 
 .features {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.circle {
+    border-radius: 100%;
+    padding: 12px;
+    background-color: white;
+    border-color: #816CFF;
+    border-style: solid;
+}
+
+.secondary {
+    display: flex;
+    gap: 4px;
+    border-radius: 24px;
+    font-size: 17px;
+    padding: 0 20px 0 20px;
+    background-color: white;
+    border-color: #816CFF;
+    border-style: solid;
+    color: #816CFF;
+    align-items: center;
 }
