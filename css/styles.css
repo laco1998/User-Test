@@ -32,3 +32,25 @@
     color: #816CFF;
     align-items: center;
 }
+
+.header {
+    display: flex;
+    gap: 68px;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 17px;
+
+}
+
+#back {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    color: #6E6BFF;
+}

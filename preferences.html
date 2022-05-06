@@ -6,9 +6,19 @@
     <link rel="stylesheet" href="css/styles.css">
 	<title></title>
 </head>
+
 <body>
 
-<button>Back</button>
+    <div class="header">
+        <button id="back" onclick="goBack()"><img src="images/back_arrow.svg">Back</button>
+        <h1>Preferences</h1>
+    </div>
 
 </body>
+
+<script>
+    function goBack() {
+        window.open("index.html", "_self");
+    }
+</script>
 </html>
