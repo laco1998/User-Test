@@ -172,3 +172,7 @@ h1 {
     font-size: 13px;
     margin: 32px 0 8px 0;
 }
+
+.objectsList button {
+    font-size: 17px;
+}
