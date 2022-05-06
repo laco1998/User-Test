@@ -60,6 +60,7 @@ h1 {
 .preferencesButtons {
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 
 .preferencesButtons button {
