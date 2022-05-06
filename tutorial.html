@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Preferences</title>
+    <title>Tutorial</title>
     <link type="text/css" rel="stylesheet" href="css/styles.css">	
 </head>
 
@@ -11,30 +11,27 @@
 
     <div class="header">
         <button id="back" onclick="goBack()"><img src="images/back_arrow.svg">Back</button>
-        <h1>Add Face</h1>
+        <h1>Tutorial</h1>
     </div>
 
-    <div class="savedFaces">
-        <button>John</button>
-        <button>Sophia</button>
-        <button>Maria</button>
-        <button id="lastFace">Peter</button>
+    <div class="tutorialSteps">
+        <h2>Step 1</h2>
+        <p>Descriptions</p>
+        <h2>Step 2</h2>
+        <p>Description</p>
+        <h2>Step 3</h2>
+        <p>Description</p>
     </div>
 
     <div class="scanFace">
-        <button onclick="goForward()">Scan Face</button>
+        <button>Scan Face</button>
     </div>
 
 </body>
 
 <script>
     function goBack() {
-        window.open("preferences.html", "_self");
+        window.open("addFace.html", "_self");
     }
-
-    function goForward() {
-        window.open("tutorial.html", "_self");
-    }
-    
 </script>
 </html>
