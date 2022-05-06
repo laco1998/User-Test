@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Object</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+
+    <div class="header">
+        <button id="back" onclick="goBack()"><img src="images/back_arrow.svg">Back</button>
+        <h1>Objects</h1>
+    </div>
+
+    <div class="search">
+        <input placeholder="Try searching for 'Office'">
+        <button><img src="images/keyboard_voice.svg"></button>
+    </div>    
+
+    <div class="favourites">
+
+        <h2>Favourites</h2>
+
+        <div class="objectsList">
+            <button>Bicycle</button>
+            <button>Bowl</button>
+            <button>Door</button>
+            <button id="lastFace">Traffic Light</button>
+        </div>
+
+    </div>    
+
+    <div class="allObjects">
+
+        <h2>All Objects</h2>
+
+        <div class="objectsList">
+            <button>Backpack</button>
+            <button>Bench</button>
+            <button>Bicycle</button>
+            <button>Bird</button>
+            <button>Bottle</button>
+            <button>Bowl</button>
+            <button id="lastFace">Bus</button>
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    function goBack() {
+        window.open("index.html", "_self");
+    }
+</script>
+</html>

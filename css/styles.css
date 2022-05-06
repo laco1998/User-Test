@@ -1,3 +1,7 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 .top {
     display: flex;
     justify-content: flex-end;
@@ -92,12 +96,12 @@ h1 {
     background-color: white;
 }
 
-.scanFace {
+.primary {
     display: flex;
     flex-direction: column;
 }
 
-.scanFace button {
+.primary button {
     padding: 13px 0 13px 0;
     border-radius: 24px;
     border: none;
@@ -129,4 +133,42 @@ h1 {
 .tutorialSteps p {
     font-size: 16px;
     margin-top: 0;
+}
+
+.objectsList {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 16px;
+    box-shadow: 0px 1px 8px 0px #0000001A;
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.objectsList button {
+    padding: 17px 0 17px 16px;
+    text-align: left;
+    border: none;
+    border-bottom: 0.5px solid gray;
+    background-color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search input {
+    padding: 7px 0 7px 0;
+    font-size: 17px;
+}
+
+.favourites h2 {
+    font-size: 13px;
+    margin: 16px 0 8px 0;
+}
+
+.allObjects h2 {
+    font-size: 13px;
+    margin: 32px 0 8px 0;
 }

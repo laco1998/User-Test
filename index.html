@@ -13,13 +13,17 @@
 
 	<div class="features">
 		<button class="circle" onclick="myFunction()" title="Describe Scene"><img src="images/landscape.svg"></button>
-		<button class="secondary"><img src="images/local_cafe.svg">Find Object</button>
+		<button class="secondary" onclick="findObject()"><img src="images/local_cafe.svg">Find Object</button>
 		<button class="circle" onclick="myFunction()" title="Help"><img src="images/help_outline.svg"></button>
 	</div>	
 
 	<script>
 		function myPreferences() {
 			window.open("preferences.html", "_self");
+		}
+
+		function findObject() {
+			window.open("findObject.html", "_self");
 		}
 	</script>
 
