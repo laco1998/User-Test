@@ -109,3 +109,24 @@ h1 {
 #lastFace {
     border: none;
 }
+
+.tutorialSteps {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 16px;
+    box-shadow: 0px 1px 8px 0px #0000001A;
+    border-radius: 8px;
+    margin-bottom: 50vh;
+    text-align: center;
+}
+
+.tutorialSteps h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.tutorialSteps p {
+    font-size: 16px;
+    margin-top: 0;
+}
