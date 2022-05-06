@@ -73,3 +73,39 @@ h1 {
     background-color: white;
     border-color: white;
 }
+
+.savedFaces {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 16px;
+    box-shadow: 0px 1px 8px 0px #0000001A;
+    border-radius: 8px;
+    margin-bottom: 50vh;
+}
+
+.savedFaces button {
+    padding: 17px 0 17px 16px;
+    text-align: left;
+    border: none;
+    border-bottom: 0.5px solid gray;
+    background-color: white;
+}
+
+.scanFace {
+    display: flex;
+    flex-direction: column;
+}
+
+.scanFace button {
+    padding: 13px 0 13px 0;
+    border-radius: 24px;
+    border: none;
+    background-color: #816CFF;
+    color: white;
+    font-size: 17px;
+}
+
+#lastFace {
+    border: none;
+}
