@@ -10,6 +10,8 @@
 }
 
 .circle {
+    display: flex;
+    align-items: center;
     border-radius: 50%;
     padding: 12px;
     background-color: white;
