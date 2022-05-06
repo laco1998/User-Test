@@ -1,12 +1,13 @@
 .top {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 50vh;
+    margin-bottom: 80vh;
 }
 
 .features {
     display: flex;
     justify-content: space-between;
+    bottom: 24px;
 }
 
 .circle {
