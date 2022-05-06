@@ -1,0 +1,10 @@
+.top {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50vh;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
