@@ -36,6 +36,22 @@ h1 {
     bottom: 24px;
 }
 
+.features button {
+    align-self: flex-end;
+}
+
+#findObject {
+    display: flex;
+    gap: 4px;
+    border-radius: 24px;
+    font-size: 17px;
+    padding: 13px 20px 13px 20px;
+    background-color: white;
+    border: 2px solid #816CFF;
+    align-items: center;
+
+}
+
 .circle {
     display: flex;
     align-items: center;
