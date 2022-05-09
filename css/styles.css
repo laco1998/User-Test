@@ -273,6 +273,10 @@ h1 {
     border: none;
 }
 
+.favourites .objectsList button {
+    border-bottom: 0.5px solid gray;
+}
+
 /*---------- SCANNING ----------*/
 
 .headerNoBack {
@@ -369,19 +373,19 @@ h1 {
 .lookingForObject {
     display: flex;
     justify-content: space-between;
-    padding: 18px 16px 18px 16px;
+    padding: 8px 16px 8px 16px;
     background-color: #3B3B3B;
     border-radius: 8px;
-    margin: 16px 0 64vh 0;
+    margin: 16px 0 68vh 0;
 }
 
 .lookingForObject p {
-    font-size: 15px;
+    font-size: 13px;
     color: white;
 }
 
 .lookingForObject button {
-    font-size: 15px;
+    font-size: 13px;
     background-color: #3B3B3B;
     border: none;
     color: white;
@@ -403,6 +407,11 @@ h1 {
 }
 
 .help p {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.5;
+}
+
+.help img {
+    width: 100%;
+    height: auto;
 }
