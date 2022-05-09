@@ -1,12 +1,33 @@
+/* ---------- GENERAL ---------- */
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     padding: 0 16px 0 16px;
 }
 
+h1 {
+    font-size: 17px;
+    flex-grow: 2;
+
+}
+
+#back {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    align-items: center;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    color: #6E6BFF;
+}
+
+/* ---------- EXPLORING ---------- */
+
 .top {
     display: flex;
     justify-content: flex-end;
-    margin: 16px 0 557px 0;
+    margin: 16px 0 72vh 0;
 }
 
 .features {
@@ -38,34 +59,23 @@ body {
     align-items: center;
 }
 
-.header {
-    display: flex;
-    gap: 0;
-    justify-content: space-between;
-
-}
-
-h1 {
-    font-size: 17px;
-    flex-grow: 2;
-
-}
-
-#back {
-    display: flex;
-    gap: 10px;
-    flex-grow: 1;
-    align-items: center;
-    border: none;
-    background-color: white;
-    font-size: 17px;
-    color: #6E6BFF;
-}
+/* ---------- PREFERENCES ---------- */
 
 .preferencesButtons {
     display: flex;
     flex-direction: column;
     margin-top: 16px;
+}
+
+.preferencesButtons button {
+    padding: 17px 0 17px 16px;
+    text-align: left;
+    border-radius: 8px;
+    border-style: solid;
+    box-shadow: 0px 1px 8px 0px #0000001A;
+    background-color: white;
+    border-color: white;
+    font-size: 17px;
 }
 
 .buttonDescription {
@@ -84,16 +94,7 @@ h1 {
     color: gray;
 }
 
-.preferencesButtons button {
-    padding: 17px 0 17px 16px;
-    text-align: left;
-    border-radius: 8px;
-    border-style: solid;
-    box-shadow: 0px 1px 8px 0px #0000001A;
-    background-color: white;
-    border-color: white;
-    font-size: 17px;
-}
+/* ---------- ADD FACE ---------- */
 
 .faces {
     display: flex;
@@ -145,6 +146,8 @@ h1 {
     border: none;
 }
 
+/* ---------- TUTORIAL ---------- */
+
 .tutorialSteps {
     display: flex;
     flex-direction: column;
@@ -164,6 +167,8 @@ h1 {
     width: 270px;
     align-self: center;
 }
+
+/* ---------- FIND OBJECT ---------- */
 
 .objectsList {
     display: flex;
