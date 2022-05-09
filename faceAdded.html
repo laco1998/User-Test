@@ -24,7 +24,7 @@
             <button>Maria</button>
             <button id="lastFace">Peter</button>
         </div>
-    </div>  
+    </div>    
 
     <div class="primary">
         <button onclick="goForward()">Scan Face</button>
@@ -33,12 +33,18 @@
 </body>
 
 <script>
+    const myTimeout = setTimeout(success, 1000);
+
     function goBack() {
         window.open("preferences.html", "_self");
     }
 
     function goForward() {
         window.open("tutorial.html", "_self");
+    }
+
+    function success() {
+        alert("Face Added Successfully")
     }
 </script>
 </html>

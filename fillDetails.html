@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Details</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+
+    <div class="headerNew">
+        <button id="back" onclick="goBack()"><img src="images/back_arrow.svg">Back</button>
+        <h1>Details</h1>
+        <button aria-hidden="true" id="empty"></button>
+    </div>
+
+    <div class="details">
+        <img width="200" height="200">
+        <input placeholder="Enter Name"></input>
+
+        <div class="relationship">
+            <h3>Relationship</h3>
+            
+            <div class="typeOfRelationship">
+                <button>Family</button>
+                <button>Friend</button>
+                <button>Colleague</button>
+        </div>
+
+    </div>
+
+    <div class="primary">
+        <button onclick="goForward()">Save Face</button>
+    </div>
+
+</body>
+
+<script>
+    function goBack() {
+        window.open("addFace.html", "_self");
+    }
+
+    function goForward() {
+        window.open("faceAdded.html", "_self");
+    }   
+</script>
+</html>

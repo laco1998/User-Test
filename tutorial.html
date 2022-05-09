@@ -24,7 +24,7 @@
     </div>
 
     <div class="primary">
-        <button>Start Scanning</button>
+        <button onclick="goForward()">Start Scanning</button>
     </div>
 
 </body>
@@ -32,6 +32,10 @@
 <script>
     function goBack() {
         window.open("addFace.html", "_self");
+    }
+
+    function goForward() {
+        window.open("scanning.html", "_self");
     }
 </script>
 </html>

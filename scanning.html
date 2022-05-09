@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scan Face</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+
+    <div class="headerNoBack">
+        <h1>Scan Face</h1>
+    </div>
+
+    <div class="scanPreview">
+        <video height="240px" width="240px"></video>
+        <p>Scanning...</p>
+    </div>
+
+</body>
+
+<script>
+    const myTimeout = setTimeout(goForward, 5000);
+
+    function goBack() {
+        window.open("addFace.html", "_self");
+    }
+
+    function goForward() {
+        window.open("fillDetails.html", "_self");
+    }
+</script>
+</html>
