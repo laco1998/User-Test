@@ -65,8 +65,23 @@ h1 {
 .preferencesButtons {
     display: flex;
     flex-direction: column;
-    gap: 24px;
     margin-top: 16px;
+}
+
+.buttonDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonDescription button {
+    margin: 0 0 8px 0;
+}
+
+.buttonDescription p {
+    padding: 0 0 0 16px;
+    font-size: 12px;
+    margin: 0 0 24px 0;
+    color: gray;
 }
 
 .preferencesButtons button {
@@ -77,6 +92,7 @@ h1 {
     box-shadow: 0px 1px 8px 0px #0000001A;
     background-color: white;
     border-color: white;
+    font-size: 17px;
 }
 
 .faces {
@@ -96,7 +112,6 @@ h1 {
 .savedFaces {
     display: flex;
     flex-direction: column;
-    gap: 0;
     margin-top: 16px;
     box-shadow: 0px 1px 8px 0px #0000001A;
     border-radius: 8px;
@@ -133,11 +148,8 @@ h1 {
 .tutorialSteps {
     display: flex;
     flex-direction: column;
-    gap: 0;
-    margin-top: 16px;
-    box-shadow: 0px 1px 8px 0px #0000001A;
+    margin: 64px 0 64px 0;
     border-radius: 8px;
-    margin-bottom: 50vh;
     text-align: center;
 }
 
@@ -148,14 +160,14 @@ h1 {
 
 .tutorialSteps p {
     font-size: 16px;
-    margin-top: 0;
+    margin: 0 0 72px 0;
+    width: 270px;
+    align-self: center;
 }
 
 .objectsList {
     display: flex;
     flex-direction: column;
-    gap: 0;
-    margin-top: 16px;
     box-shadow: 0px 1px 8px 0px #0000001A;
     border-radius: 8px;
     margin-bottom: 0;
@@ -177,16 +189,19 @@ h1 {
 .search input {
     padding: 7px 0 7px 0;
     font-size: 17px;
+    flex-grow: 2;
 }
 
 .favourites h2 {
     font-size: 13px;
     margin: 16px 0 8px 0;
+    color: gray;
 }
 
 .allObjects h2 {
     font-size: 13px;
     margin: 32px 0 8px 0;
+    color: gray;
 }
 
 .objectsList button {
@@ -279,4 +294,63 @@ h1 {
 #empty {
     border: none;
     background-color: white;
+}
+
+.description {
+    margin: 530px 0 0 0;
+    padding: 16px;
+    text-align: center;
+    background-color: #3B24C3;
+    color: white;
+    border-radius: 4px;
+}
+
+.describeFeatures {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 0 0 0;
+}
+
+.describeFeatures button {
+    border: none;
+    background-color: white;
+}
+
+.lookingForObject {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 16px 18px 16px;
+    background-color: #3B3B3B;
+    border-radius: 8px;
+    margin: 16px 0 549px 0;
+}
+
+.lookingForObject p {
+    font-size: 15px;
+    color: white;
+}
+
+.lookingForObject button {
+    font-size: 15px;
+    background-color: #3B3B3B;
+    border: none;
+    color: white;
+}
+
+.cancel {
+    display: flex;
+    justify-content: center;
+}
+
+.cancel button {
+    padding: 12px 20px 12px 20px;
+}
+
+.help {
+    margin-top: 16px 0 0 0;
+}
+
+.help p {
+    font-size: 17px;
+    line-height: 1.5;
 }

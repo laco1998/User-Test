@@ -9,9 +9,10 @@
 
 <body>
 
-    <div class="header">
+    <div class="headerNew">
         <button id="back" onclick="goBack()"><img src="images/back_arrow.svg">Back</button>
         <h1>Objects</h1>
+        <button aria-hidden="true" id="empty"></button>
     </div>
 
     <div class="search">
@@ -27,7 +28,7 @@
             <button>Bicycle</button>
             <button>Bowl</button>
             <button>Door</button>
-            <button id="lastFace">Traffic Light</button>
+            <button onclick="goForward()" id="lastFace">Traffic Light</button>
         </div>
 
     </div>    
@@ -53,6 +54,10 @@
 <script>
     function goBack() {
         window.open("index.html", "_self");
+    }
+
+    function goForward() {
+        window.open("looking.html", "_self");
     }
 </script>
 </html>

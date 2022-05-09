@@ -9,14 +9,24 @@
 
 <body>
 
-    <div class="header">
+    <div class="headerNew">
         <button id="back" onclick="goBack()"><img src="images/back_arrow.svg">Back</button>
         <h1>Preferences</h1>
+        <button aria-hidden="true" id="empty"></button>
     </div>
 
     <div class="preferencesButtons">
-        <button>Detailed Descriptions</button>
-        <button>Improved Navigation</button>
+
+        <div class="buttonDescription">
+            <button>Detailed Descriptions</button>
+            <p>Allows the app to provide you with more information about objects or people</p>
+        </div>
+
+        <div class="buttonDescription">
+            <button>Improved Navigation</button>
+            <p>Allows the app to provide you with more accurate directions to objects</p>
+        </div>
+
         <button onclick="addFace()">Add Face</button>
     <div>
 

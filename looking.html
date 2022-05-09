@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Looking</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+
+    <div class="lookingForObject">
+        <p>Looking for a traffic light...</p>
+        <button onclick="switchObject()">Switch</button>
+    </div>
+
+    <div class="cancel">
+        <button onclick="goBack()" class="secondary"><img src="images/close.svg">Cancel</button>
+    </div>
+
+</body>
+
+<script>
+    function goBack() {
+        window.open("index.html", "_self");
+    }
+
+    function switchObject() {
+        window.open("findObject.html", "_self");
+    }
+</script>
+</html>

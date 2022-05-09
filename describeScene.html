@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Object</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+
+    <div class="headerNew">
+        <button id="back" onclick="goBack()"><img src="images/back_arrow.svg">Back</button>
+        <h1>Describe Scene</h1>
+        <button aria-hidden="true" id="empty"></button>
+    </div>
+
+    <div class="description">
+        <p>Looks like a busy street with skyscrapers on both sides.  </p>
+    </div>
+
+    <div class="describeFeatures">
+        <button><img src="images/retake.svg"></button>
+        <button><img src="images/download.svg"></button>
+        <button><img src="images/share.svg"></button>
+    </div>
+
+</body>
+
+<script>
+    function goBack() {
+        window.open("index.html", "_self");
+    }
+</script>
+</html>
