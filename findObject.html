@@ -25,10 +25,10 @@
         <h2>Favourites</h2>
 
         <div class="objectsList">
-            <button>Bicycle</button>
-            <button>Bowl</button>
-            <button>Door</button>
-            <button onclick="goForward()" id="lastFace">Traffic Light</button>
+            <button aria-description="Actions available">Bicycle</button>
+            <button aria-description="Actions available">Bowl</button>
+            <button aria-description="Actions available">Door</button>
+            <button aria-description="Actions available"onclick="goForward()" id="lastFace">Traffic Light</button>
         </div>
 
     </div>    
@@ -38,13 +38,47 @@
         <h2>All Objects</h2>
 
         <div class="objectsList">
-            <button>Backpack </button>
-            <button>Bench</button>
-            <button>Bicycle</button>
-            <button>Bird</button>
-            <button>Bottle</button>
-            <button>Bowl</button>
-            <button id="lastFace">Bus</button>
+
+            <div class="addFavourite">
+                <button>Backpack</button>
+                <button aria-description="Backpack. Add to favourites. Actions Available."><img src="images/favourite_empty.svg"></button>
+            </div>
+
+            <div class="addFavourite">
+                <button>Bird</button>
+                <button aria-description="Bird. Add to favourites. Actions Available."><img src="images/favourite_empty.svg"></button>
+            </div>
+
+            <div class="addFavourite">
+                <button>Bench</button>
+                <button aria-description="Bench. Add to favourites. Actions Available."><img src="images/favourite_empty.svg"></button>
+            </div>
+
+            <div class="addFavourite">
+                <button>Bicycle</button>
+                <button aria-description="Bicycle. Add to favourites. Actions Available."><img src="images/favourite_filled.svg"></button>
+            </div>
+
+            <div class="addFavourite">
+                <button>Bird</button>
+                <button aria-description="Bird. Add to favourites. Actions Available."><img src="images/favourite_empty.svg"></button>
+            </div>
+
+            <div class="addFavourite">
+                <button>Bottle</button>
+                <button aria-description="Bottle. Add to favourites. Actions Available."><img src="images/favourite_empty.svg"></button>
+            </div>
+
+            <div class="addFavourite">
+                <button>Bowl</button>
+                <button aria-description="Backpack. Add to favourites. Actions Available."><img src="images/favourite_filled.svg"></button>
+            </div>
+
+            <div id="lastObject" class="addFavourite">
+                <button>Bus</button>
+                <button aria-description="Backpack. Add to favourites. Actions Available."><img src="images/favourite_empty.svg"></button>
+            </div>
+
         </div>
 
     </div>

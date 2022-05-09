@@ -230,7 +230,6 @@ h1 {
     padding: 17px 0 17px 16px;
     text-align: left;
     border: none;
-    border-bottom: 0.5px solid gray;
     background-color: white;
 }
 
@@ -249,16 +248,29 @@ h1 {
     font-size: 13px;
     margin: 16px 0 8px 0;
     color: gray;
+    padding: 0 0 0 16px;
 }
 
 .allObjects h2 {
     font-size: 13px;
     margin: 32px 0 8px 0;
     color: gray;
+    padding: 0 0 0 16px;
 }
 
 .objectsList button {
     font-size: 17px;
+}
+
+.addFavourite {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+    border-bottom: solid 0.5px gray;
+}
+
+.objectsList #lastObject {
+    border: none;
 }
 
 /*---------- SCANNING ----------*/
@@ -383,6 +395,8 @@ h1 {
 .cancel button {
     padding: 12px 20px 12px 20px;
 }
+
+/*---------- HELP ----------*/
 
 .help {
     margin-top: 16px 0 0 0;
