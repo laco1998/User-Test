@@ -338,12 +338,20 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-bottom: 4vh;
+    box-shadow: 0px 1px 8px 0px #0000001A;
 }
 
 .typeOfRelationship button {
     font-size: 13px;
     padding: 12px 0 12px 16px;
     text-align: left;
+    background-color: white;
+    border: none;
+    border-bottom: 0.5px solid gray;
+}
+
+.typeOfRelationship #lastObject {
+    border: none;
 }
 
 /*---------- DESCRIBE SCENE ----------*/
