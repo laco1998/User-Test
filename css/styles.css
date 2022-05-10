@@ -437,6 +437,11 @@ h1 {
     line-height: 1.5;
 }
 
+.help ul li {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
 .help img {
     width: 100%;
     height: auto;
