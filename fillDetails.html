@@ -15,22 +15,34 @@
         <button aria-hidden="true" id="empty"></button>
     </div>
 
-    <div class="details">
-        <img width="120" height="120">
-        <input placeholder="Enter Name"></input>
-
-        <div class="relationship">
-            <h3 title="Select one relationship that applies to the scanned face.">Relationship</h3>
-            
-            <div class="typeOfRelationship">
-                <button>Family</button>
-                <button>Friend</button>
-                <button id="lastObject">Colleague</button>
-            </div> 
-
-        </div>
-
+    <div class="faceImage">
+        <img src="images/face.jpg" width="120" height="120">
     </div>
+
+    <div class="enterName">
+        <input placeholder="Enter Name"></input>
+    </div>    
+
+        <form class="relationship">
+            <p>Relationship</p>
+    
+            <div class="choices">
+                <div class="family">
+                    <label for="family">Family</label>
+                    <input type="radio" value="Family" id="family"><br>
+                </div>
+    
+                <div class="friend">
+                    <label for="friend">Friend</label>
+                    <input type="radio" value="Friend" id="friend"><br>
+                </div>
+    
+                <div class="colleague">
+                    <label for="colleague">Colleague</label>
+                    <input type="radio" value="Colleague" id="colleague"><br>
+                </div>
+            </div>    
+        </form>
 
     <div class="primary">
         <button onclick="goForward()">Save Face</button>

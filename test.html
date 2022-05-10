@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exploring</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <form class="relationship">
+        <p>Relationship</p>
+
+        <div class="choices">
+            <div class="family">
+                <label for="family">Family</label>
+                <input type="radio" value="Family" id="family"><br>
+            </div>
+
+            <div class="friend">
+                <label for="friend">Friend</label>
+                <input type="radio" value="Friend" id="friend"><br>
+            </div>
+
+            <div class="colleague">
+                <label for="colleague">Colleague</label>
+                <input type="radio" value="Colleague" id="colleague"><br>
+            </div>
+        </div>    
+    </form>
+
+	<script>
+		function myPreferences() {
+			window.open("preferences.html", "_self");
+		}
+
+		function findObject() {
+			window.open("findObject.html", "_self");
+		}
+
+		function describeScene() {
+			window.open("describeScene.html", "_self");
+		}
+
+		function getHelp() {
+			window.open("help.html", "_self");
+		}
+	</script>
+
+</body>
+</html>

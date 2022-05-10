@@ -304,54 +304,72 @@ h1 {
 
 /*---------- DETAILS ---------- */
 
-.details {
+.faceImage {
     display: flex;
     flex-direction: column;
-    padding: 0 16px 0 16px;
 }
 
-.details img {
-    margin-top: 4vh;
+.faceImage img {
+    margin-top: 2vh;
     align-self: center;
     margin-bottom: 4vh;
     border-radius: 50%;
     border: solid 4px #816CFF;
 }
 
-.details input {
+.enterName {
+    display: flex;
+    justify-content: center;
+}
+
+.enterName input {
     font-size: 17px;
     padding: 8px 0 8px 0;
-    margin: 0 0 4vh 0;
+    margin: 0 0 1vh 0;
+    width: 100%;
 }
 
 .relationship {
     display: flex;
     flex-direction: column;
-}
-
-.relationship h3 {
-    font-size: 16px;
-    margin: 0 0 8px 0;
-}
-
-.typeOfRelationship {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 4vh;
-    box-shadow: 0px 1px 8px 0px #0000001A;
 }
 
-.typeOfRelationship button {
-    font-size: 13px;
-    padding: 12px 0 12px 16px;
-    text-align: left;
-    background-color: white;
-    border: none;
+.relationship p {
+    padding: 0 0 0 16px;
+    font-weight: 500;
+}
+
+.family {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 16px 17px 16px;
     border-bottom: 0.5px solid gray;
 }
 
-.typeOfRelationship #lastObject {
-    border: none;
+.friend {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 16px 17px 16px;
+    border-bottom: 0.5px solid gray;
+}
+
+.colleague {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 16px 17px 16px;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 8px 0px #0000001A;
+    border-radius: 8px;
+
+}
+
+.choices label {
+    flex-grow: 2;
 }
 
 /*---------- DESCRIBE SCENE ----------*/
@@ -423,3 +441,4 @@ h1 {
     width: 100%;
     height: auto;
 }
+
