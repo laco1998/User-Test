@@ -47,21 +47,24 @@ h1 {
 
 /* ---------- EXPLORING ---------- */
 
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 64vh;
+}
+
 .top {
     display: flex;
     justify-content: flex-end;
-    margin: 16px 0 72vh 0;
 }
 
 .features {
     display: flex;
     justify-content: space-between;
-    bottom: 24px;
-        margin: 0 0 16px 0;
 }
 
 .features button {
-    align-self: flex-end;
+    margin-top: auto;
 }
 
 #findObject {
